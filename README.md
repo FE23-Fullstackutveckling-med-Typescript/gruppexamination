@@ -59,7 +59,7 @@ Ni har Design Thinking-modellen till ert förfogande, MEN för att komma igång 
 
 Ni får själva välja om ni vill köra ett s.k. monorepo innehållandes både er frontend och er backend, eller om ni vill skapa upp separata repon. Därefter skapar ni upp ett (1) projekt på GitHub Projects som ni kopplar ihop med båda ert/era repo(n). Er "board" kommer att vara en "single source of truth" under projektets gång. Det är här ni lägger in alla era user stories, samt specificerar EXAKT vad som behöver göras för att lösa en user story / issue. Er "board" bör minst innehålla följande kategorier: *Product Backlog*, *Sprint Backlog*, *In progress*, *Done*, men ni får även lägga till fler exempelvis *test*, *On hold* etc. Även om man slutfört sina uppgifter/issues så kommer jag att räkna arbetet som "ej slutfört" om man inte aktivt uppdaterar sin "board" allt eftersom arbetet fortskrider. Jag kommer kika in lite då och då för att anteckna hur flitigt ni arbetar och ta med detta i min slutliga bedömning.
 
-Ni behöver bjuda in mig till både era repon och ert projekt (zocom-christoffer-wallenberg) om dessa är privata.
+Ni behöver bjuda in mig till både era repon och ert projekt (zocom-christoffer-wallenberg) om dessa är privata. **Jag vill ha tillgång till era repon och er board från och med denna vecka.**
 
 ### Frontend
 
