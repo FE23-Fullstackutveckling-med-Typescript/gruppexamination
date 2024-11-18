@@ -101,7 +101,7 @@ Deadline för ert projektarbete är **fredagen den 13/12 kl 23:59**. I er inläm
 
 **För G krävs att ni har**:
 * Byggt en applikation som innehåller all funktionalitet som specificeras under Specifikationer
-* Byggt er applikation i React och TypeScript med en backend
+* Byggt er applikation i React och TypeScript med en backend (backend behöver inte vara i Typescript)
 * Använder sig av en Content Security Policy i ert projekt
 * Använder sig av JWT (cookies, session storage eller local storage)
 
