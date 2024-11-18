@@ -47,10 +47,6 @@ Detta projekt kommer kombinera allt som ni har lärt er i utbildningen hittills:
 
 Ni ska följa Scrum-metoden till punkt och pricka genom hela utvecklingsprocessen. Detta innebär **sprint planning**, **daily scrum** varje dag ni arbetar med projektet, **sprint review** och **sprint retrospective** (Ni skall anteckna från planning, review och retrospective, för att kunna skriva om detta i rapporten).
 
-Under kursen har ni handledningstid under ordinarie lektionstillfällen. Ni kommer dessutom kunna boka in mig (er produktägare) för att delta i något av era möten om ni skulle vilja ha min input kring något. Inför varje sprint review på fredagar så behöver gruppen boka in sig på en ledig tid. Alla grupper MÅSTE ha sprint review VARJE vecka.
-
-Sjukanmälan görs både till mig och gruppen.
-
 ### Designprocessen
 
 Ni har Design Thinking-modellen till ert förfogande, MEN för att komma igång snabbt så behöver den inte genomföras till punkt och pricka. Här fokuserar ni inledningsvis på ert koncept, kom på ett riktigt kickass-namn åt er restaurang och börja designa i Figma. Alla olika vyer i er appliktion MÅSTE prototypas upp i Figma, och detta MÅSTE vara klart senast måndagen den 11/11 så att ni kan sätta igång och börja jobba sedan. Innan ni börjar arbeta MÅSTE designen godkännas av er produktägare (moi). Be om ett snabbt möte, alt. skicka länk till ert Figmaprojekt. 
@@ -72,11 +68,11 @@ Er webbsida måste även vara responsiv och fungera på ALLA skärmar.
 Här ställs ni inför ett par avvägningar. Antingen så bygger ni er backend i Express.js, eller så bygger ni den serverless i AWS.
 Oavsett vilket ni väljer så finns det vissa saker ni MÅSTE använda er utav.
 
-* Hantering av credentials på ett säkert sätt (JWT, sessions, cookies)
+* Hantering av credentials på ett säkert sätt (JWT, sessions, cookies) (Detta kommer vi gå igenom)
 * En API-nyckel som skall skickas med i alla anrop
 * Middlewares för att autentisera, validera osv.
 * En databas för persistent datalagring
-* En Content Security Policy för att skydda er mot botar
+* En Content Security Policy för att skydda er mot botar (Detta kommer vi gå igenom)
 * Hosta er backend någonstans
 
 #### Express - utmaningen
@@ -97,7 +93,7 @@ Appen skall publiceras online med AWS i en S3 bucket inför varje Sprint Review.
 
 ## Inlämning, slutredovisning och bedömning
 
-Deadline för ert projektarbete är innan er Sprint Review **fredagen den 6/12**. Därefter har ni tills **kl 23.59 den 13/12** på er att slutföra er rapport och lämna in den som en länk på Azomo. I er rapport vill jag ha länkar till era Github-repon, ert projekt, samt ert Figma-projekt (se också för guds skull till att jag har tillgång till allt detta, jag kommer inte jaga er under jul och nyår och kommer jag inte in så kan det inte bli godkänt). I er rapport vill jag även se hur ni har arbetat på under projektets gång. Jag vill veta vad ni gjort under vilka veckor, hur har ni prioriterat, och varför har ni prioriterat som ni har gjort. Jag vill även se tydligt alla steg i er process.
+Deadline för ert projektarbete är **fredagen den 13/12 kl 23:59**. I er inlämning vill jag ha länkar till era Github-repon, ert projekt, samt ert Figma-projekt (se också för guds skull till att jag har tillgång till allt detta, jag kommer inte jaga er under jul och nyår och kommer jag inte in så kan det inte bli godkänt). I er rapport vill jag även se hur ni har arbetat på under projektets gång. Jag vill veta vad ni gjort under vilka veckor, hur har ni prioriterat, och varför har ni prioriterat som ni har gjort. Jag vill även se tydligt alla steg i er process.
 
 Även om det är ett grupprojekt så är det individuella betyg som gäller. 
 
