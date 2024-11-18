@@ -106,7 +106,7 @@ Deadline för ert projektarbete är **fredagen den 13/12 kl 23:59**. I er inläm
 * Använder sig av JWT (cookies, session storage eller local storage)
 
 **För VG krävs att ni**
-* Har använt en genomtänkt arkitektur i ert React-projekt och använder `intermediate` eller ´advanced folder structure´ från artikeln som ni hittar [här](https://blog.webdevsimplified.com/2022-07/react-folder-structure/).
+* Har använt en genomtänkt arkitektur i ert React-projekt och använder `intermediate` eller `advanced folder structure` från artikeln som ni hittar [här](https://blog.webdevsimplified.com/2022-07/react-folder-structure/).
 
 Kom gärna överens som grupp vilket betyg ni vill satsa på, och arbeta tillsammans utefter det. Hamnar man i en grupp som satsar mot G men att man själv vill uppnå ett VG, så kan man kontakta mig så tittar vi på vad du som individ behöver göra för att nå det högre betyget.
 
