@@ -63,7 +63,7 @@ Ni behöver bjuda in mig till både era repon och ert projekt (zocom-christoffer
 
 ### Frontend
 
-Appens frontend ska byggas i React. Planera projektet så att ni åtminstonde kan börja koda er frontend innan ni har en fullt fungerande backend. Ni kan komma att behöva skapa realistisk testdata att använda tills vidare, och till detta är Aizo en utmärkt medhjälpare. 
+Appens frontend ska byggas i React och Typescript. Planera projektet så att ni åtminstonde kan börja koda er frontend innan ni har en fullt fungerande backend. Ni kan komma att behöva skapa realistisk testdata att använda tills vidare, och till detta är Aizo en utmärkt medhjälpare. 
 
 Er webbsida måste även vara responsiv och fungera på ALLA skärmar.
 
@@ -81,7 +81,7 @@ Oavsett vilket ni väljer så finns det vissa saker ni MÅSTE använda er utav.
 
 #### Express - utmaningen
 
-Dels kommer ni att behöva lära er hur man hostar sin beckend på Render, men den stora utmaningen tänker jag kan bli databashanteringen. NeDB har inget grafiskt gränssnitt vilket underlättar vi databasimplementation, och jag tänker att en bra idé här kan vara arr ni sätter er in i MongoDB som är supersmidigt och har ett lättuggat gränssnitt.
+Dels kommer ni att behöva lära er hur man hostar sin beckend på Render, men den stora utmaningen tänker jag kan bli databashanteringen. NeDB har inget grafiskt gränssnitt vilket underlättar vi databasimplementation, och jag tänker att en bra idé här kan vara en idé att sätter er in i MongoDB som är supersmidigt och har ett lättuggat gränssnitt. **Dock går det bra med att använda NeDB också för denna examination**.
 
 Guide till Render: https://www.youtube.com/watch?v=bnCOyGaSe84
 
@@ -103,6 +103,7 @@ Deadline för ert projektarbete är **fredagen den 13/12 kl 23:59**. I er inläm
 * Byggt en applikation som innehåller all funktionalitet som specificeras under Specifikationer
 * Byggt er applikation i React och TypeScript med en backend
 * Använder sig av en Content Security Policy i ert projekt
+* Använder sig av JWT (cookies, session storage eller local storage)
 
 **För VG krävs att ni**
 * Har använt en genomtänkt arkitektur i ert React-projekt och använder `intermediate` eller ´advanced folder structure´ från artikeln som ni hittar [här](https://blog.webdevsimplified.com/2022-07/react-folder-structure/).
