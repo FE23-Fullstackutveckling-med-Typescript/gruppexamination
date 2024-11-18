@@ -83,6 +83,8 @@ Oavsett vilket ni väljer så finns det vissa saker ni MÅSTE använda er utav.
 
 Dels kommer ni att behöva lära er hur man hostar sin beckend på Render, men den stora utmaningen tänker jag kan bli databashanteringen. NeDB har inget grafiskt gränssnitt vilket underlättar vi databasimplementation, och jag tänker att en bra idé här kan vara arr ni sätter er in i MongoDB som är supersmidigt och har ett lättuggat gränssnitt.
 
+Guide till Render: https://www.youtube.com/watch?v=bnCOyGaSe84
+
 #### Serverless i AWS
 
 Dels så kommer ni återigen vara tvugna att samarbeta i serverless framework med allt som det medför, bestämmande av vems backend man kommer använda i slutändan osv. Den stora utmaningen här blir dock hur ni gör för att trycka in middlewares i er applikation. Ett verktyg ni isåfall kommer behöva använda er av är Middy (jag kommer demonstrera detta under vecka 1).
@@ -103,9 +105,9 @@ Deadline för ert projektarbete är **fredagen den 13/12 kl 23:59**. I er inläm
 * Använder sig av en Content Security Policy i ert projekt
 
 **För VG krävs att ni**
-* Har använt en genomtänkt arkitektur i ert React-projekt samt skrivit en förklaring till varför ni delat upp som ni har gjort.
+* Har använt en genomtänkt arkitektur i ert React-projekt och använder `intermediate` eller ´advanced folder structure´ från artikeln som ni hittar [här](https://blog.webdevsimplified.com/2022-07/react-folder-structure/).
 
-Kom gärna överens som grupp vilket betyg ni vill satsa på, och arbeta tillsammans utefter det tex genom att använda en specifik arkitektur/strategi i era respektive repon. Hamnar man i en grupp som satsar mot G men att man själv vill uppnå ett VG, så kan man kontakta mig så tittar vi på vad du som individ behöver göra för att nå det högre betyget.
+Kom gärna överens som grupp vilket betyg ni vill satsa på, och arbeta tillsammans utefter det. Hamnar man i en grupp som satsar mot G men att man själv vill uppnå ett VG, så kan man kontakta mig så tittar vi på vad du som individ behöver göra för att nå det högre betyget.
 
 Projektet skall presenteras för klassen fredagen den 13 december. Projektet ska presenteras och demonstreras på engelska då detta är ett av kursmålen.
 Mer info om upplägg kring detta kommer senare.
