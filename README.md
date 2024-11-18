@@ -104,6 +104,7 @@ Deadline för ert projektarbete är **fredagen den 13/12 kl 23:59**. I er inläm
 * Byggt er applikation i React och TypeScript med en backend (backend behöver inte vara i Typescript)
 * Använder sig av en Content Security Policy i ert projekt
 * Använder sig av JWT (cookies, session storage eller local storage)
+* Delaktigt aktivt och använt sig av Scrum, Github projects och Github.
 
 **För VG krävs att ni**
 * Har använt en genomtänkt arkitektur i ert React-projekt och använder `intermediate` eller `advanced folder structure` från artikeln som ni hittar [här](https://blog.webdevsimplified.com/2022-07/react-folder-structure/).
