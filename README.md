@@ -45,21 +45,25 @@ Detta projekt kommer kombinera allt som ni har lärt er i utbildningen hittills:
 
 ### Scrum
 
-Ni ska följa Scrum-metoden till punkt och pricka genom hela utvecklingsprocessen. Detta innebär **sprint planning**, **daily scrum** varje dag ni arbetar med projektet, **sprint review** och **sprint retrospective** (Ni skall anteckna från planning, review och retrospective, för att kunna skriva om detta i rapporten).
+Ni ska följa Scrum-metoden till punkt och pricka genom hela utvecklingsprocessen. Detta innebär **sprint planning**, **daily scrum** varje dag ni arbetar med projektet, **sprint review** och **sprint retrospective** som sker på måndagar och fredagar respektive. En sprint är 1 vecka lång.
+
+## User stories
+
+User stories hittar ni här: https://github.com/users/zocom-christoffer-wallenberg/projects/16/views/1
 
 ### Designprocessen
 
-Ni har Design Thinking-modellen till ert förfogande, MEN för att komma igång snabbt så behöver den inte genomföras till punkt och pricka. Här fokuserar ni inledningsvis på ert koncept, kom på ett riktigt kickass-namn åt er restaurang och börja designa i Figma. Alla olika vyer i er appliktion MÅSTE prototypas upp i Figma, och detta MÅSTE vara klart senast måndagen den 11/11 så att ni kan sätta igång och börja jobba sedan. Innan ni börjar arbeta MÅSTE designen godkännas av er produktägare (moi). Be om ett snabbt möte, alt. skicka länk till ert Figmaprojekt. 
+Ni har Design Thinking-modellen till ert förfogande, MEN för att komma igång snabbt så behöver den inte genomföras till punkt och pricka. Här fokuserar ni inledningsvis på ert koncept, kom på ett riktigt kickass-namn åt er restaurang och börja designa i Figma. Se till att ni prototyper alla era vyer och diskutera i teamet så att ni är överens och alla är med på slutresultatet.
 
 ### Git och GitHub
 
 Ni får själva välja om ni vill köra ett s.k. monorepo innehållandes både er frontend och er backend, eller om ni vill skapa upp separata repon. Därefter skapar ni upp ett (1) projekt på GitHub Projects som ni kopplar ihop med båda ert/era repo(n). Er "board" kommer att vara en "single source of truth" under projektets gång. Det är här ni lägger in alla era user stories, samt specificerar EXAKT vad som behöver göras för att lösa en user story / issue. Er "board" bör minst innehålla följande kategorier: *Product Backlog*, *Sprint Backlog*, *In progress*, *Done*, men ni får även lägga till fler exempelvis *test*, *On hold* etc. Även om man slutfört sina uppgifter/issues så kommer jag att räkna arbetet som "ej slutfört" om man inte aktivt uppdaterar sin "board" allt eftersom arbetet fortskrider. Jag kommer kika in lite då och då för att anteckna hur flitigt ni arbetar och ta med detta i min slutliga bedömning.
 
-Ni behöver bjuda in mig till både era repon och ert projekt (Santosnr6).
+Ni behöver bjuda in mig till både era repon och ert projekt (zocom-christoffer-wallenberg) om dessa är privata.
 
 ### Frontend
 
-Appens frontend ska byggas i React. Planera projektet så att ni åtminstonde kan börja koda er frontend innan ni har en fullt fungerande backend. Ni kan komma att behöva skapa realistisk testdata att använda tills vidare, och till detta är Aizo och ChatGPT utmärkta medhjälpare. 
+Appens frontend ska byggas i React. Planera projektet så att ni åtminstonde kan börja koda er frontend innan ni har en fullt fungerande backend. Ni kan komma att behöva skapa realistisk testdata att använda tills vidare, och till detta är Aizo en utmärkt medhjälpare. 
 
 Er webbsida måste även vara responsiv och fungera på ALLA skärmar.
 
@@ -72,7 +76,7 @@ Oavsett vilket ni väljer så finns det vissa saker ni MÅSTE använda er utav.
 * En API-nyckel som skall skickas med i alla anrop
 * Middlewares för att autentisera, validera osv.
 * En databas för persistent datalagring
-* En Content Security Policy för att skydda er mot botar (Detta kommer vi gå igenom)
+* En Content Security Policy (Detta kommer vi gå igenom)
 * Hosta er backend någonstans
 
 #### Express - utmaningen
@@ -87,21 +91,19 @@ Dels så kommer ni återigen vara tvugna att samarbeta i serverless framework me
 
 Appen skall publiceras online med AWS i en S3 bucket inför varje Sprint Review.
 
-
-## Länkar
-
-
 ## Inlämning, slutredovisning och bedömning
 
-Deadline för ert projektarbete är **fredagen den 13/12 kl 23:59**. I er inlämning vill jag ha länkar till era Github-repon, ert projekt, samt ert Figma-projekt (se också för guds skull till att jag har tillgång till allt detta, jag kommer inte jaga er under jul och nyår och kommer jag inte in så kan det inte bli godkänt). I er rapport vill jag även se hur ni har arbetat på under projektets gång. Jag vill veta vad ni gjort under vilka veckor, hur har ni prioriterat, och varför har ni prioriterat som ni har gjort. Jag vill även se tydligt alla steg i er process.
+Deadline för ert projektarbete är **fredagen den 13/12 kl 23:59**. I er inlämning vill jag ha länkar till era Github-repon, ert projekt, samt ert Figma-projekt (se också för guds skull till att jag har tillgång till allt detta, jag kommer inte jaga er under jul och nyår och kommer jag inte in så kan det inte bli godkänt). 
 
 Även om det är ett grupprojekt så är det individuella betyg som gäller. 
 
 **För G krävs att ni har**:
 * Byggt en applikation som innehåller all funktionalitet som specificeras under Specifikationer
 * Byggt er applikation i React och TypeScript med en backend
+* Använder sig av en Content Security Policy i ert projekt
 
-**För VG krävs** det dessutom att DU har producerat tydlig, läsbar och hanterbar kod, samt visat mycket goda egenskaper i Scrum och kodhantering via Git.
+**För VG krävs att ni**
+* Har använt en genomtänkt arkitektur i ert React-projekt samt skrivit en förklaring till varför ni delat upp som ni har gjort.
 
 Kom gärna överens som grupp vilket betyg ni vill satsa på, och arbeta tillsammans utefter det tex genom att använda en specifik arkitektur/strategi i era respektive repon. Hamnar man i en grupp som satsar mot G men att man själv vill uppnå ett VG, så kan man kontakta mig så tittar vi på vad du som individ behöver göra för att nå det högre betyget.
 
